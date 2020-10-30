@@ -18,7 +18,8 @@ print(st.replace("T","U"))
 import string
 from Bio.Seq import Seq
 
-def reverse(x):     #function to reverse the string
+#function to reverse the string
+def reverse(x):
 	return x[::-1] 
 
 file = open("/Users/anu/Downloads/rosalind_revc.txt", "r") #open
